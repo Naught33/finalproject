@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "969976667999",
+    "firebase_url": "https://nevoish-beta-default-rtdb.firebaseio.com",
+    "project_id": "nevoish-beta",
+    "storage_bucket": "nevoish-beta.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:969976667999:android:71dd2ad08d369b1f1760ea",
+        "android_client_info": {
+          "package_name": "com.example.nevoishbeta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "969976667999-2dvv1nvtfkflrfg5a7use7cqfmv82s8s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nevoishbeta",
+            "certificate_hash": "6b90e957b6cb41da8f1785bfe731e5aacc24757a"
+          }
+        },
+        {
+          "client_id": "969976667999-he408q868541k5quv7tur4f28l0e7f8i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCN9oYCXhSOCSzxKBJYr5iTS3bpmWtmMTU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "969976667999-he408q868541k5quv7tur4f28l0e7f8i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
