@@ -3,6 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.nevoishbeta">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -14,14 +16,49 @@
         android:theme="@style/Theme.NevoishBeta"
         tools:targetApi="31">
         <activity
+            android:name=".recyclerview_datapopup"
+            android:exported="false"
+            android:theme="@style/Theme.signupmain"/>
+        <activity
+            android:name=".service_display"
+            android:exported="false"
+            android:theme="@style/Theme.signupmain" />
+        <activity
+            android:name=".job_upload_area"
+            android:exported="false"
+            android:theme="@style/Theme.signupmain" />
+        <activity
+            android:name=".jobapp_main"
+            android:exported="false"
+            android:theme="@style/Theme.signupmain" />
+        <activity
+            android:name=".Email_signup"
+            android:exported="false"
+            android:theme="@style/Theme.signupmain" />
+        <activity
+            android:name=".MyHome"
+            android:exported="false"
+            android:theme="@style/Theme.signupmain" />
+        <activity
+            android:name=".Nevoish"
+            android:exported="false"
+            android:theme="@style/Theme.signupmain" />
+        <activity
+            android:name=".signupactivity"
+            android:exported="false"
+            android:theme="@style/Theme.signupmain" />
+        <activity
+            android:name=".loginactivity"
+            android:exported="false"
+            android:theme="@style/Theme.signupmain" />
+        <activity
             android:name=".MainActivity"
-            android:exported="false" />
-
+            android:exported="false"
+            android:theme="@style/Theme.mainactivity" />
         <activity
             android:name=".splash"
             android:exported="true"
             android:theme="@style/Theme.splash_anim">
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

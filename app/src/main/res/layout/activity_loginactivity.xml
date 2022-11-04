@@ -4,6 +4,81 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bg_main"
     tools:context=".loginactivity">
 
+
+    <LinearLayout
+        android:layout_width="404dp"
+        android:layout_height="428dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/username_edt2"
+            android:hint="username"
+            android:layout_marginBottom="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:padding="25dp"
+            android:background="@drawable/edt_cover"
+            android:ems="10"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/enter_email"
+            android:hint="email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:padding="25dp"
+            android:background="@drawable/edt_cover"
+            android:ems="10"
+            android:inputType="textEmailAddress" />
+
+
+
+        <EditText
+            android:id="@+id/pass2"
+            android:layout_width="match_parent"
+            android:padding="25dp"
+            android:hint="password"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:background="@drawable/edt_cover"
+            android:ems="10"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/log_in_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="login"
+            android:padding="25dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/button_bg"
+            android:layout_marginLeft="25dp"/>
+
+<!--        <Button-->
+<!--            android:id="@+id/log_in_withgmail"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Gmail signin"-->
+<!--            android:padding="25dp"-->
+<!--            android:layout_marginTop="25dp"-->
+<!--            android:layout_marginRight="25dp"-->
+<!--            android:background="@drawable/button_bg"-->
+<!--            android:layout_marginLeft="25dp"/>-->
+
+
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

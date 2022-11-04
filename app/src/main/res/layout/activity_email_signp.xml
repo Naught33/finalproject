@@ -4,6 +4,84 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Email_login">
 
+    android:background="@drawable/bg_main"
+    tools:context=".signupactivity">
+
+    <LinearLayout
+        android:layout_width="416dp"
+        android:layout_height="489dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <EditText
+            android:id="@+id/username_edt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/edt_cover"
+            android:ems="10"
+            android:hint="username"
+            android:inputType="text"
+            android:padding="25dp" />
+
+        <EditText
+            android:id="@+id/email_edt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/edt_cover"
+            android:ems="10"
+            android:hint="email"
+            android:inputType="textEmailAddress"
+            android:padding="25dp" />
+
+        <EditText
+            android:id="@+id/pass_edt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/edt_cover"
+            android:ems="10"
+            android:hint="create password"
+            android:inputType="textPassword"
+            android:padding="25dp" />
+
+        <EditText
+            android:id="@+id/passconfirm_edt"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:background="@drawable/edt_cover"
+            android:ems="10"
+            android:hint="confirm password"
+            android:inputType="textPassword"
+            android:padding="25dp" />
+
+        <Button
+            android:id="@+id/sign_up_btn2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/button_bg"
+            android:padding="25dp"
+            android:text="sign up" />
+
+
+
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

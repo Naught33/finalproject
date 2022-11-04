@@ -3,11 +3,40 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/User/AndroidStudioProjects/Nevoishbeta/app/src/main/res/drawable/bg_main.xml" value="0.189" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Nevoishbeta/app/src/main/res/drawable/button_bg.xml" value="0.189" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Nevoishbeta/app/src/main/res/drawable/caedviewitem_bg.xml" value="0.144" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Nevoishbeta/app/src/main/res/drawable/edt_cover.xml" value="0.175" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Nevoishbeta/app/src/main/res/drawable/fragbar_bg.xml" value="0.181" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Nevoishbeta/app/src/main/res/drawable/ic_baseline_exit_to_app_24.xml" value="0.1315" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Nevoishbeta/app/src/main/res/drawable/ic_baseline_image_24.xml" value="0.1415" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Nevoishbeta/app/src/main/res/drawable/ic_baseline_post_add_24.xml" value="0.1415" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Nevoishbeta/app/src/main/res/drawable/ic_baseline_supervised_user_circle_24.xml" value="0.1415" />
         <entry key="..\:/Users/User/AndroidStudioProjects/Nevoishbeta/app/src/main/res/drawable/icon.xml" value="0.137" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Nevoishbeta/app/src/main/res/drawable/nav_header_resource.xml" value="0.1315" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Nevoishbeta/app/src/main/res/drawable/smallbtn_bg.xml" value="0.1445" />
         <entry key="..\:/Users/User/AndroidStudioProjects/Nevoishbeta/app/src/main/res/drawable/splash_1_background.xml" value="0.197" />
         <entry key="..\:/Users/User/AndroidStudioProjects/Nevoishbeta/app/src/main/res/drawable/splash_anim.xml" value="0.197" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Nevoishbeta/app/src/main/res/layout/activity_email_signp.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Nevoishbeta/app/src/main/res/layout/activity_firebase_data_recyclerview.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Nevoishbeta/app/src/main/res/layout/activity_homepage.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Nevoishbeta/app/src/main/res/layout/activity_job_upload_area.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Nevoishbeta/app/src/main/res/layout/activity_jobapp_main.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Nevoishbeta/app/src/main/res/layout/activity_loginactivity.xml" value="0.15" />
         <entry key="..\:/Users/User/AndroidStudioProjects/Nevoishbeta/app/src/main/res/layout/activity_main.xml" value="0.17481884057971014" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/Nevoishbeta/app/src/main/res/layout/activity_main2.xml" value="0.17481884057971014" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Nevoishbeta/app/src/main/res/layout/activity_main2.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Nevoishbeta/app/src/main/res/layout/activity_my_home.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Nevoishbeta/app/src/main/res/layout/activity_nevoish.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Nevoishbeta/app/src/main/res/layout/activity_recyclerview_datapopup.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Nevoishbeta/app/src/main/res/layout/activity_service_display.xml" value="0.15604959384352288" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Nevoishbeta/app/src/main/res/layout/activity_signupactivity.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Nevoishbeta/app/src/main/res/layout/cardview.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Nevoishbeta/app/src/main/res/layout/fragment_home.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Nevoishbeta/app/src/main/res/layout/fragment_nevoish_beta.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Nevoishbeta/app/src/main/res/layout/fragment_post_job.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Nevoishbeta/app/src/main/res/layout/fragment_settings.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Nevoishbeta/app/src/main/res/layout/header_sidenav.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Nevoishbeta/app/src/main/res/menu/sidenav_menu.xml" value="0.1" />
         <entry key="..\:/Users/User/AndroidStudioProjects/Nevoishbeta/app/src/main/res/mipmap-anydpi-v26/splash_1.xml" value="0.1" />
       </map>
     </option>

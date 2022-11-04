@@ -1,4 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:title="@string/post_job"
+        android:id="@+id/post_job"
+        android:icon="@drawable/add_post"/>
+
+    <item
+        android:id="@+id/switch_"
+        android:title="@string/userswitch"
+        android:icon="@drawable/switch_users"/>
+
+    <item
+        android:id="@+id/logout"
+        android:title="@string/logout"
+        android:icon="@drawable/log_out"/>
 
 </menu>

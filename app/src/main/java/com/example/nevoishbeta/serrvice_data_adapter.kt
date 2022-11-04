@@ -1,28 +1,27 @@
-package com.example.nevoishbeta.recyclerviewdataview
+package com.example.nevoishbeta
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.example.nevoishbeta.R
 
 class serrvice_data_adapter(private  val service_list:ArrayList<Service_retreive_model>):RecyclerView.Adapter<serrvice_data_adapter.Viewholder>() {
     override fun onCreateViewHolder(
         parent: ViewGroup,
         viewType: Int
-    ):Viewholder {
+    ): Viewholder {
 
         val  itemView = LayoutInflater.from(parent.context).inflate(R.layout.cardview, parent,false)
         return Viewholder(itemView)
 
     }
 
-    override fun onBindViewHolder(holder: serrvice_data_adapter.Viewholder, position: Int) {
+    override fun onBindViewHolder(holder: Viewholder, position: Int) {
         val curr_service = service_list[position]
-        holder.view1.text = curr_service.service_name
-        holder.view2.text = curr_service.service_bio
-        holder.view3.text = curr_service.client_contact
+        holder.view1.text = curr_service.job_name
+        holder.view2.text = curr_service.job_description
+        holder.view3.text = curr_service.phone
     }
 
 

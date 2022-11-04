@@ -1,3 +1,5 @@
-package com.example.nevoishbeta.recyclerviewdataview
+package com.example.nevoishbeta
 
-data class Service_retreive_model(val service_name:String, val service_bio:String, val client_contact:String)
+data class Service_retreive_model(val job_name:String? = null,
+                                  val job_description:String? = null,
+                                  val phone:String? = null)

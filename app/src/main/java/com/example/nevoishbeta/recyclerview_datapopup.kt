@@ -1,11 +1,10 @@
-package com.example.nevoishbeta.recyclerviewdataview
+package com.example.nevoishbeta
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.nevoishbeta.R
 import com.google.firebase.database.*
 
 class recyclerview_datapopup : AppCompatActivity() {
@@ -22,6 +21,8 @@ class recyclerview_datapopup : AppCompatActivity() {
         recyclerViewmain = findViewById(R.id.data_popup_rv)
         recyclerViewmain.layoutManager = LinearLayoutManager(this)
         recyclerViewmain.setHasFixedSize(true)
+
+
 
         service_list = arrayListOf<Service_retreive_model>()
         getServiceData()

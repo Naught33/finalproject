@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">Nevoish beta</string>
+    <string name="title_activity_nevoishbeta">Nevoishbeta</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="title_activity_nevoish_beta">Nevoish_beta</string>
+
+    <string name="logout">log out</string>
+    <string name="userswitch">switch user</string>
+    <string name="post_job">post service</string>
+
+    <string name="open">open</string>
+    <string name="close">close</string>
+
 </resources>
